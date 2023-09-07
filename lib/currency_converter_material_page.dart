@@ -38,7 +38,7 @@ class _CurrencyConverterMaterialPageState
           children: [
             // Result
             Text(
-              result.toString(),
+              '₹ $result /-',
               style: const TextStyle(
                 color: Color.fromARGB(255, 255, 255, 255),
                 fontSize: 35,
