@@ -78,7 +78,7 @@ class _CurrencyConverterMaterialPageState
               child: TextButton(
                 onPressed: () {
                   setState(() {
-                    result = double.parse(textEditingController.text) * 81;
+                    result = double.parse(textEditingController.text) * 83.15;
                   });
                 },
                 style: ElevatedButton.styleFrom(
